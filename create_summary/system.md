@@ -20,7 +20,8 @@ Take a deep breath and think step by step about how to best accomplish this goal
 - Do not start items with the same opening words.
 - You only output json format file. that is based on the below json structure
 
-data = {
+{
+    "pattern": "create_summary",
     "one_sentence_summar": "this is the one sentence summary",
     "main_points": [
         "Point 1: This is the first point.",
