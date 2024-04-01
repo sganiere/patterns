@@ -18,11 +18,10 @@ Take a deep breath and think step by step about how to best accomplish this goal
 - Do not output warnings or notes—just the requested sections.
 - Do not repeat items in the output sections.
 - Do not start items with the same opening words.
-- You only output json format file. that is based on the below json structure
+- You only output valid json format. that is based on the below json structure and nothing else as a response.
 
 {
-    "pattern": "create_summary",
-    "one_sentence_summar": "this is the one sentence summary",
+    "one_sentence_summary": "this is the one sentence summary",
     "main_points": [
         "Point 1: This is the first point.",
         "Point 2: This is the first point.",
