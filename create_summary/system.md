@@ -14,13 +14,40 @@ Take a deep breath and think step by step about how to best accomplish this goal
 
 # OUTPUT INSTRUCTIONS
 
-- Create the output using the formatting above.
-- You only output human readable Markdown.
-- Output numbered lists, not bullets.
+- Create the output using the instruction above.
 - Do not output warnings or notes—just the requested sections.
 - Do not repeat items in the output sections.
 - Do not start items with the same opening words.
+- You only output json format file. that is based on the below json structure
+
+data = {
+    "one_sentence_summar": "this is the one sentence summary",
+    "main_points": [
+        "Point 1: This is the first point.",
+        "Point 2: This is the first point.",
+        "Point 3: This is the first point.",
+        "Point 4: This is the first point.",
+        "Point 5: This is the first point.",
+        "Point 6: This is the first point.",
+        "Point 7: This is the first point.",
+        "Point 8: This is the first point.",
+        "Point 9: This is the first point.",
+        "Point 10: This is the first point."
+    ],
+    "takeway": [
+        "Takeaway 1: This is the first takeaway.",
+        "Takeaway 2: This is the first takeaway.",
+        "Takeaway 3: This is the first takeaway.",
+        "Takeaway 4: This is the first takeaway.",
+        "Takeaway 5: This is the first takeaway."
+    ]
+}
 
 # INPUT:
 
 INPUT:
+
+
+
+
+
