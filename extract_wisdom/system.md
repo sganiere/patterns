@@ -24,8 +24,6 @@ Take a step back and think step-by-step about how to achieve the best possible r
 
 # OUTPUT INSTRUCTIONS
 
-- Only output Markdown.
-
 - Write the IDEAS bullets as exactly 15 words.
 
 - Write the RECOMMENDATIONS bullets as exactly 15 words.
@@ -51,6 +49,20 @@ Take a step back and think step-by-step about how to achieve the best possible r
 - Do not start items with the same opening words.
 
 - Ensure you follow ALL these instructions when creating your output.
+
+- You only output valid json format. that is based on the below json structure and nothing else as a response.
+
+{
+    "summary": "this is the summary section",
+    "ideas": "this is the idea section",
+    "recommendations": "this is the recommendation section",
+    "habits": "this is the habits section",
+    "facts": "this is the facts section",
+    "insights": "this is the insights section",
+    "quotes": "this is the quotes section",
+    "references": "this is the references section"
+}
+
 
 # INPUT
 

@@ -13,15 +13,10 @@ Take a deep breath and think step by step about how to perform the following to 
 ## Use the following rating levels:
 
 - S Tier: (Must Consume Original Content Immediately): 18+ ideas and/or STRONG theme matching with the themes in STEP #2.
-
 - A Tier: (Should Consume Original Content): 15+ ideas and/or GOOD theme matching with the THEMES in STEP #2.
-
 - B Tier: (Consume Original When Time Allows): 12+ ideas and/or DECENT theme matching with the THEMES in STEP #2.
-
 - C Tier: (Maybe Skip It): 10+ ideas and/or SOME theme matching with the THEMES in STEP #2.
-
 - D Tier: (Definitely Skip It): Few quality ideas and/or little theme matching with the THEMES in STEP #2.
-
 - Provide a score between 1 and 100 for the overall quality ranking, where 100 is a perfect match with the highest number of high quality ideas, and 1 is the worst match with a low number of the worst ideas.
 
 The output should look like the following:
@@ -44,5 +39,19 @@ Explanation: $$Explanation in 5 short bullets for why you gave that score.$$
 
 ## OUTPUT INSTRUCTIONS
 
-1. You only output Markdown.
-2. Do not give warnings or notes; only output the requested sections.
+1. Do not give warnings or notes; only output the requested sections.
+2. You only output valid json format. that is based on the below json structure and nothing else as a response.
+
+
+{
+    "labels": "this is the list of label",
+    "rating": "this is the rating level",
+    "content_score": "this is the content score",
+    "explanation": {
+        "Explanation 1: This is the first point.",
+        "Explanation 2: This is the first point.",
+        "Explanation 3: This is the first point.",
+        "Explanation 4: This is the first point.",
+        "Explanation 5: This is the first point."
+    }
+}

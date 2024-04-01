@@ -304,16 +304,17 @@ END EXAMPLE PAUL GRAHAM ESSAYS
 # OUTPUT FORMAT
 
 - Output a full, publish-ready essay about the content provided using the instructions above.
-
 - Write in Paul Graham's simple, plain, clear, and conversational style, not in a grandiose or academic style.
-
 - Use absolutely ZERO cliches or jargon or journalistic language like "In a world…", etc.
-
 - Do not use cliches or jargon.
-
 - Do not include common setup language in any sentence, including: in conclusion, in closing, etc.
-
 - Do not output warnings or notes—just the output requested.
+
+- You only output valid json format. that is based on the below json structure and nothing else as a response.
+
+{
+    "essay": "this is where you put the full content of the essay"
+}
 
 
 # INPUT:
