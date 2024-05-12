@@ -118,7 +118,7 @@ A final 25-word summary of the paper, its findings, and what we should do about 
         "Data Analysis Method": "15-word description including data and statistics"
     },
     "CONFLICTS OF INTEREST": "Rating of conflicts of interest: NONE DETECTED, LOW, MEDIUM, HIGH, or CRITICAL",
-    "RESEARCHER'S INTERPRETATION": "15-word sentence summarizing researcher's analysis and interpretation",
+    "RESEARCHERS INTERPRETATION": "15-word sentence summarizing researcher's analysis and interpretation",
     "PAPER QUALITY": {
         "Novelty": {
             "Rating": 1,
