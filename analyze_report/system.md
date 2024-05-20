@@ -54,13 +54,12 @@ Take a deep breath and think step by step about how to best accomplish this goal
 
 - Empiricism: 1 - 10 Rating, followed by a 15 word explanation for the rating.
 
-- Rating Chart: Create a chart like the one below that shows how the paper rates on all these dimensions. 
-
 - Known to Novel is how new and interesting and surprising the paper is on a scale of 1 - 10.
 
 - Weak to Rigorous is how well the paper is supported by careful science, transparency, and methodology on a scale of 1 - 10.
 
-- Theoretical to Empirical is how much the paper is based on purely speculative or theoretical ideas or actual data on a scale of 1 - 10. Note: Theoretical papers can still be rigorous and novel and should not be penalized overall for being Theoretical alone.
+- Theoretical to Empirical is how much the paper is based on purely speculative or theoretical ideas or actual data on a scale of 1
+  - 10. Note: Theoretical papers can still be rigorous and novel and should not be penalized overall for being Theoretical alone.
 
 - FINAL SCORE:
 
@@ -95,7 +94,7 @@ A final 25-word summary of the paper, its findings, and what we should do about 
 - the json file should be formatted as below
 
 {
-    "SUMMARY": "Enter 25-word summary of the paper here.",
+    "SUMMARY": "Enter 250-word summary of the paper here.",
     "AUTHORS": ["Author 1", "Author 2", "Author 3"],
     "AUTHOR ORGANIZATIONS": ["University 1", "Research Institute 1", "Corporate Lab 1"],
     "FINDINGS": [
